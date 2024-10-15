@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(0, 16, 139);
+    color:white;
+}
+.bbox{
+    background-color: rgba(136, 201, 168, 0.46);
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    border-radius: 20px;
+    box-shadow: pink 0px -10px 0px 1px;
+}
+.sbox{
+    padding: 20px;
+}
+.progress{
+    position: relative;
+    display: flex;
+}
+h3{
+    position: absolute;
+    top: -22px;
+    left: 40px;
+}
+progress{
+    position: absolute;
+    left: 100px;
+}
+.pris{
+    position: absolute;
+    left: 270px;
+    top: -3px;
+}
+.lala{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:solid grey;
+    margin:2px;
+}
+.all{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border:none;
+}
+.all:hover{
+    padding: 10px;
+}
